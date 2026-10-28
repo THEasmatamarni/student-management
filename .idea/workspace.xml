@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b887782-fb3a-4dbe-aa38-80a0a71ef3e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/student-management/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +53,11 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.StudentManagementApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feature/nexus",
+    "git-widget-placeholder": "feature/jenkins",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/asma/Downloads/student-management",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
@@ -63,7 +65,21 @@
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\asma\Downloads\student-management" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <configuration name="StudentManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="student-management" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.studentmanagement.StudentManagementApplication" />
