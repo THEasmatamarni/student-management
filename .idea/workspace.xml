@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5b887782-fb3a-4dbe-aa38-80a0a71ef3e0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/student-management/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.StudentManagementApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/nexus",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/asma/Downloads/student-management",
     "nodejs_package_manager_path": "npm",
