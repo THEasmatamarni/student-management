@@ -1,0 +1,278 @@
+[1mdiff --git a/.idea/.gitignore b/.idea/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..30cf57e[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/.gitignore[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32m# Default ignored files[m
+[32m+[m[32m/shelf/[m
+[32m+[m[32m/workspace.xml[m
+[32m+[m[32m# Editor-based HTTP Client requests[m
+[32m+[m[32m/httpRequests/[m
+[32m+[m[32m# Ignored default folder with query files[m
+[32m+[m[32m/queries/[m
+[32m+[m[32m# Datasource local storage ignored files[m
+[32m+[m[32m/dataSources/[m
+[32m+[m[32m/dataSources.local.xml[m
+[1mdiff --git a/.idea/compiler.xml b/.idea/compiler.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7d3e750[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/compiler.xml[m
+[36m@@ -0,0 +1,19 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="CompilerConfiguration">[m
+[32m+[m[32m    <annotationProcessing>[m
+[32m+[m[32m      <profile default="true" name="Default" enabled="true" />[m
+[32m+[m[32m      <profile name="Maven default annotation processors profile" enabled="true">[m
+[32m+[m[32m        <sourceOutputDir name="target/generated-sources/annotations" />[m
+[32m+[m[32m        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />[m
+[32m+[m[32m        <outputRelativeToContentRoot value="true" />[m
+[32m+[m[32m        <module name="student-management" />[m
+[32m+[m[32m      </profile>[m
+[32m+[m[32m    </annotationProcessing>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="JavacSettings">[m
+[32m+[m[32m    <option name="ADDITIONAL_OPTIONS_OVERRIDE">[m
+[32m+[m[32m      <module name="student-management" options="-parameters" />[m
+[32m+[m[32m    </option>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/encodings.xml b/.idea/encodings.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1a680f3[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/encodings.xml[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="Encoding">[m
+[32m+[m[32m    <file url="file://$PROJECT_DIR$/student-management/src/main/java" charset="UTF-8" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..712ab9d[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/jarRepositories.xml[m
+[36m@@ -0,0 +1,20 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="RemoteRepositoriesConfiguration">[m
+[32m+[m[32m    <remote-repository>[m
+[32m+[m[32m      <option name="id" value="central" />[m
+[32m+[m[32m      <option name="name" value="Central Repository" />[m
+[32m+[m[32m      <option name="url" value="https://repo.maven.apache.org/maven2" />[m
+[32m+[m[32m    </remote-repository>[m
+[32m+[m[32m    <remote-repository>[m
+[32m+[m[32m      <option name="id" value="central" />[m
+[32m+[m[32m      <option name="name" value="Maven Central repository" />[m
+[32m+[m[32m      <option name="url" value="https://repo1.maven.org/maven2" />[m
+[32m+[m[32m    </remote-repository>[m
+[32m+[m[32m    <remote-repository>[m
+[32m+[m[32m      <option name="id" value="jboss.community" />[m
+[32m+[m[32m      <option name="name" value="JBoss Community repository" />[m
+[32m+[m[32m      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />[m
+[32m+[m[32m    </remote-repository>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/misc.xml b/.idea/misc.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..45c0a75[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/misc.xml[m
+[36m@@ -0,0 +1,14 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ExternalStorageConfigurationManager" enabled="true" />[m
+[32m+[m[32m  <component name="MavenProjectsManager">[m
+[32m+[m[32m    <option name="originalFiles">[m
+[32m+[m[32m      <list>[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/student-management/pom.xml" />[m
+[32m+[m[32m      </list>[m
+[32m+[m[32m    </option>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">[m
+[32m+[m[32m    <output url="file://$PROJECT_DIR$/out" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/modules.xml b/.idea/modules.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a602c64[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/modules.xml[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ProjectModuleManager">[m
+[32m+[m[32m    <modules>[m
+[32m+[m[32m      <module fileurl="file://$PROJECT_DIR$/.idea/student-management.iml" filepath="$PROJECT_DIR$/.idea/student-management.iml" />[m
+[32m+[m[32m    </modules>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/student-management.iml b/.idea/student-management.iml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6054576[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/student-management.iml[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<module version="4">[m
+[32m+[m[32m  <component name="AdditionalModuleElements">[m
+[32m+[m[32m    <content url="file://$MODULE_DIR$" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</module>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/vcs.xml b/.idea/vcs.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..94a25f7[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/vcs.xml[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="VcsDirectoryMappings">[m
+[32m+[m[32m    <mapping directory="$PROJECT_DIR$" vcs="Git" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/student-management/pom.xml b/student-management/pom.xml[m
+[1mindex 863826e..1b919bd 100644[m
+[1m--- a/student-management/pom.xml[m
+[1m+++ b/student-management/pom.xml[m
+[36m@@ -30,13 +30,29 @@[m
+         <java.version>17</java.version>[m
+     </properties>[m
+     <dependencies>[m
+[32m+[m[32m        <dependency>[m
+[32m+[m[32m            <groupId>org.springframework.boot</groupId>[m
+[32m+[m[32m            <artifactId>spring-boot-starter-log4j2</artifactId>[m
+[32m+[m[32m        </dependency>[m
+         <dependency>[m
+             <groupId>org.springframework.boot</groupId>[m
+             <artifactId>spring-boot-starter-data-jpa</artifactId>[m
+[32m+[m[32m            <exclusions>[m
+[32m+[m[32m                <exclusion>[m
+[32m+[m[32m                    <groupId>org.springframework.boot</groupId>[m
+[32m+[m[32m                    <artifactId>spring-boot-starter-logging</artifactId>[m
+[32m+[m[32m                </exclusion>[m
+[32m+[m[32m            </exclusions>[m
+         </dependency>[m
+         <dependency>[m
+             <groupId>org.springframework.boot</groupId>[m
+             <artifactId>spring-boot-starter-web</artifactId>[m
+[32m+[m[32m            <exclusions>[m
+[32m+[m[32m                <exclusion>[m
+[32m+[m[32m                    <groupId>org.springframework.boot</groupId>[m
+[32m+[m[32m                    <artifactId>spring-boot-starter-logging</artifactId>[m
+[32m+[m[32m                </exclusion>[m
+[32m+[m[32m            </exclusions>[m
+         </dependency>[m
+ [m
+         <dependency>[m
+[36m@@ -59,6 +75,12 @@[m
+             <groupId>org.springdoc</groupId>[m
+             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>[m
+             <version>2.1.0</version>[m
+[32m+[m[32m            <exclusions>[m
+[32m+[m[32m                <exclusion>[m
+[32m+[m[32m                    <groupId>org.springframework.boot</groupId>[m
+[32m+[m[32m                    <artifactId>spring-boot-starter-logging</artifactId>[m
+[32m+[m[32m                </exclusion>[m
+[32m+[m[32m            </exclusions>[m
+         </dependency>[m
+     </dependencies>[m
+ [m
+[1mdiff --git a/student-management/src/main/java/tn/esprit/studentmanagement/services/StudentService.java b/student-management/src/main/java/tn/esprit/studentmanagement/services/StudentService.java[m
+[1mindex b9a50c6..5277c9f 100644[m
+[1m--- a/student-management/src/main/java/tn/esprit/studentmanagement/services/StudentService.java[m
+[1m+++ b/student-management/src/main/java/tn/esprit/studentmanagement/services/StudentService.java[m
+[36m@@ -1,6 +1,8 @@[m
+[32m+[m
+ package tn.esprit.studentmanagement.services;[m
+ [m
+[31m-import lombok.AllArgsConstructor;[m
+[32m+[m[32mimport org.apache.logging.log4j.LogManager;[m
+[32m+[m[32mimport org.apache.logging.log4j.Logger;[m
+ import org.springframework.beans.factory.annotation.Autowired;[m
+ import org.springframework.stereotype.Service;[m
+ import tn.esprit.studentmanagement.entities.Student;[m
+[36m@@ -10,11 +12,68 @@[m [mimport java.util.List;[m
+ [m
+ @Service[m
+ public class StudentService implements IStudentService {[m
+[32m+[m
+[32m+[m[32m    private static final Logger logger =[m
+[32m+[m[32m            LogManager.getLogger(StudentService.class);[m
+[32m+[m
+     @Autowired[m
+     private StudentRepository studentRepository;[m
+[31m-    public List<Student> getAllStudents() { return studentRepository.findAll(); }[m
+[31m-    public Student getStudentById(Long id) { return studentRepository.findById(id).orElse(null); }[m
+[31m-    public Student saveStudent(Student student) { return studentRepository.save(student); }[m
+[31m-    public void deleteStudent(Long id) { studentRepository.deleteById(id); }[m
+ [m
+[32m+[m[32m    @Override[m
+[32m+[m[32m    public List<Student> getAllStudents() {[m
+[32m+[m[32m        logger.info("Fetching all students");[m
+[32m+[m
+[32m+[m[32m        List<Student> students = studentRepository.findAll();[m
+[32m+[m
+[32m+[m[32m        logger.debug("Number of students found: {}", students.size());[m
+[32m+[m[32m        return students;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    @Override[m
+[32m+[m[32m    public Student getStudentById(Long id) {[m
+[32m+[m[32m        logger.info("Fetching student with id: {}", id);[m
+[32m+[m
+[32m+[m[32m        Student student = studentRepository.findById(id).orElse(null);[m
+[32m+[m
+[32m+[m[32m        if (student == null) {[m
+[32m+[m[32m            logger.warn("Student not found with id: {}", id);[m
+[32m+[m[32m        } else {[m
+[32m+[m[32m            logger.debug("Student found with id: {}", id);[m
+[32m+[m[32m        }[m
+[32m+[m
+[32m+[m[32m        return student;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    @Override[m
+[32m+[m[32m    public Student saveStudent(Student student) {[m
+[32m+[m[32m        if (student.getIdStudent() == null) {[m
+[32m+[m[32m            logger.info("Creating a new student");[m
+[32m+[m[32m        } else {[m
+[32m+[m[32m            logger.info("Updating student with id: {}",[m
+[32m+[m[32m                    student.getIdStudent());[m
+[32m+[m[32m        }[m
+[32m+[m
+[32m+[m[32m        try {[m
+[32m+[m[32m            Student savedStudent = studentRepository.save(student);[m
+[32m+[m[32m            logger.debug("Student saved with id: {}",[m
+[32m+[m[32m                    savedStudent.getIdStudent());[m
+[32m+[m[32m            return savedStudent;[m
+[32m+[m[32m        } catch (RuntimeException exception) {[m
+[32m+[m[32m            logger.error("Failed to save student", exception);[m
+[32m+[m[32m            throw exception;[m
+[32m+[m[32m        }[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    @Override[m
+[32m+[m[32m    public void deleteStudent(Long id) {[m
+[32m+[m[32m        logger.info("Deleting student with id: {}", id);[m
+[32m+[m
+[32m+[m[32m        try {[m
+[32m+[m[32m            studentRepository.deleteById(id);[m
+[32m+[m[32m            logger.debug("Student deleted with id: {}", id);[m
+[32m+[m[32m        } catch (RuntimeException exception) {[m
+[32m+[m[32m            logger.error("Failed to delete student with id: {}", id, exception);[m
+[32m+[m[32m            throw exception;[m
+[32m+[m[32m        }[m
+[32m+[m[32m    }[m
+ }[m
