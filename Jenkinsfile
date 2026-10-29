@@ -32,7 +32,7 @@ pipeline {
         }
     }
 
-    post {
+
 
 post {
     always {
@@ -45,7 +45,7 @@ post {
     failure {
         echo 'Echec du pipeline : verifier la console.'
     }
-}
+
 
     }
 }
