@@ -33,11 +33,19 @@ pipeline {
     }
 
     post {
-        success {
-            echo 'Pipeline execute avec succes !'
-        }
-        failure {
-            echo 'Echec du pipeline : verifier la console.'
-        }
+
+post {
+    always {
+        junit testResults: 'student-management/target/surefire-reports/*.xml',
+              allowEmptyResults: true
+    }
+    success {
+        echo 'Pipeline execute avec succes !'
+    }
+    failure {
+        echo 'Echec du pipeline : verifier la console.'
+    }
+}
+
     }
 }
