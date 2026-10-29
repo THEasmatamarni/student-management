@@ -7,6 +7,7 @@ pipeline {
     }
 
     stages {
+
         stage('Build') {
             steps {
                 dir('student-management') {
@@ -43,6 +44,51 @@ pipeline {
                 }
             }
         }
+
+
+stage('Deploy to Nexus') {
+    steps {
+        dir('student-management') {
+            withCredentials([
+                usernamePassword(
+                    credentialsId: 'nexus-credentials',
+                    usernameVariable: 'admin',
+                    passwordVariable: 'adminasma'
+                )
+            ]) {
+                sh '''
+                    set +x
+                    mkdir -p "$WORKSPACE/.mvn-temp"
+
+                    SETTINGS="$WORKSPACE/.mvn-temp/settings.xml"
+                    trap 'rm -rf "$WORKSPACE/.mvn-temp"' EXIT
+
+                    cat > "$SETTINGS" <<EOF
+<settings>
+  <servers>
+    <server>
+      <id>nexus-releases</id>
+      <username>${admin}</username>
+      <password>${adminasma}</password>
+    </server>
+    <server>
+      <id>nexus-snapshots</id>
+      <username>${admin}</username>
+      <password>${adminasma}</password>
+    </server>
+  </servers>
+</settings>
+EOF
+
+                    mvn -B -s "$SETTINGS" deploy -DskipTests
+                '''
+            }
+        }
+    }
+}
+
+
+
     }
 
     post {
