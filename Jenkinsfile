@@ -28,8 +28,8 @@ pipeline {
                 dir('student-management') {
                     withSonarQubeEnv('SonarQube') {
                         sh '''
-                            mvn -B sonar:sonar \
-                              -Dsonar.projectKey=student-management
+                                               mvn -B org.sonarsource.scanner.maven:sonar-maven-plugin:5.3.0.6276:sonar \
+                                                 -Dsonar.projectKey=student-management
                         '''
                     }
                 }
